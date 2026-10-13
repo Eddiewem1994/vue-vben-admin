@@ -220,6 +220,24 @@ const routes: RouteRecordRaw[] = [
           },
         ],
       },
+            {
+        name: 'customComponents',
+        path: 'customComponents',
+        meta: {
+          icon: 'lucide:table',
+          title: "自定义组件",
+        },
+        children: [
+          {
+            name: 'modal',
+            path: 'modal',
+            component: () => import('#/views/examples/customComponents/modal/index.vue'),
+            meta: {
+              title: "Modal组件",
+            },
+          }
+        ],
+      },
       {
         name: 'CaptchaExample',
         path: 'captcha',
