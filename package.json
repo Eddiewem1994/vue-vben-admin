@@ -104,7 +104,8 @@
     "vite": "catalog:",
     "vitest": "catalog:",
     "vue": "catalog:",
-    "vue-tsc": "catalog:"
+    "vue-tsc": "catalog:",
+    "reka-ui": "catalog:"
   },
   "engines": {
     "node": "^22.18.0 || ^24.12.0",
